@@ -2,8 +2,8 @@
 #Remove files with a LastWriteTime or LastAccessTime
 
 #Variables to configure
-# $directory1 = '\\decatur.local\homes\Faculty-Homes' #Staff to run the cleanup
-$directory2 = '\\fileprintapp\HSAPPS\CBA class' #Student directory
+# $directory1 = '\\domain.local\homes\Faculty-Homes' #Staff to run the cleanup DFS namespace 
+$directory2 = '\\fileserver\HSAPPS\class' #Student directory
 $days = "-2" # How far back do you want to keep files
 $Lastvalue = "LastAccessTime" #Change this value from LastAccessTime to LastWriteTime, Access is last time opened, LastWrite is last time the file was changed/written to
 $logpath1 = "c:\scripts\Stafflog.csv"
